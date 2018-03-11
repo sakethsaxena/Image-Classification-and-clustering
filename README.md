@@ -1,25 +1,34 @@
 # K-means classfication of images of headshots and landscapes 
-# KNN and Heirarchical clustering of images based on similarity
+# KNN and Heirarchical clustering of images based on euclidean distance
 
 ![San Jose State University](https://i.imgur.com/cShW5MA.gif?1)
 ![..](https://i.imgur.com/QIGOoLy.png?1)
 
 
-This is a script developed to classify images using a KNN classifier and perform K-means clustering and single linkage clustering on image datasets.
+A script developed to classify images using a KNN classifier and perform K-means clustering and single linkage clustering on image datasets.
 
-The datasets used are - self curated images of "professional headshots" and "landscape images"
+The datasets used are self curated images of "professional headshots" and "landscape images"
 
 The KNN classifier uses a lookup table generated from training the model on a labeled dataset 
 
-The clustering algorithms cluster similar data together and use the euclidean distance as the similarity measure to cluster images.
+The clustering algorithms cluster similar data together 
+
+The script use the euclidean distance as the similarity measure to cluster and classifiy images.
+_________________________________________________________________________________________________
+
+Take a look at the report.pdf file to see the performance results 
+
+_________________________________________________________________________________________________
 
 
 
 Go through following instructions before running the code:
 •	The program is run by the following command
+  
   o	`python Image_Classification_Clustering`
   
 •	External libraries to be installed - 
+  
   o	`PIL, matplotlib`
 
 •	On first run of the program - please select option 2 for training component and provide the directory paths for landscape and headshot 
